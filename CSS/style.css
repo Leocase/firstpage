@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgba(244,242,241,1);
+    
+
+}
+
+.header {
+    
+    background: rgb(255,99,71);
+    background: linear-gradient(90deg, rgba(255,99,71,1) 31%, rgba(244,242,241,1) 85%);
+    /*background-image: url("IMG/background.jpg");*/
+    padding: 10px 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 30%;
+    background-color: rgba(112, 139, 112, 0.39);
+    padding: 20px;
+    border-radius: 0 20px;
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;    
+}
+
+.navegacao {
+    list-style: none;
+}
+
+.navegacao li {
+    margin:10px 50px
+}
+
+.navegacao li a {
+    text-decoration: none;
+    background: rgb(106, 106, 248);
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content {
+    width: 65%;
+    background-color: #d4d3d3;
+    padding: 30px;
+    border-radius: 10px 0 0 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(42, 42, 97);
+}
+
+.footer {
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.qsomos {
+    width: 500px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+    
+}
+
+.contacts {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.contacts img {
+    width: 50px;
+}
+
+.lampada{
+    width: 30%;
+    margin-top: 10px;
+        
+}
